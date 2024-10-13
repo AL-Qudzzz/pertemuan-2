@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Daftar Mahasiswa</title>
+
+    <!--CSS Internal-->
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #f4f4f9;
+        color: #333;
+        line-height: 1.6;
+        padding: 20px;
+      }
+
+      h2 {
+        margin-bottom: 20px;
+        text-align: center;
+        font-size: 28px;
+        color: #4a90e2;
+      }
+
+      /* Table CSS */
+      table {
+        width: 100%;
+        max-width: 800px;
+        margin: 0 auto;
+        border-collapse: collapse;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        background-color: #fff;
+      }
+
+      th,
+      td {
+        padding: 12px 15px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+      }
+
+      th {
+        background-color: #4a90e2; 
+        color: white;
+        font-weight: bold;
+        text-align: center;
+      }
+
+      td {
+        text-align: center;
+      }
+
+      tr:hover {
+        background-color: #f1f1f1;
+      }
+
+      /* Image Styles */
+      img {
+        width: 120px;
+        height: auto;
+        border-radius: 50%;
+        border: 2px solid #4a90e2;
+      }
+
+      table caption {
+        caption-side: top;
+        font-weight: bold;
+        font-size: 20px;
+        margin-bottom: 10px;
+        color: #333;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Daftar Mahasiswa</h2>
+
+    <table>
+      <caption>
+        Data Mahasiswa
+      </caption>
+      <thead>
+        <tr>
+          <th>No</th>
+          <th>Nama</th>
+          <th>Jenis Kelamin</th>
+          <th>Foto</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Muhammad Faiqul U.D.</td>
+          <td>Laki-Laki</td>
+          <td>
+            <img src="Profile.jpg" alt="Foto Mahasiswa" />
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
